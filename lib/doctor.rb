@@ -20,4 +20,4 @@ class Doctor
     @appointments.collect{|appointment| appointment.patient}
     end
 end
-binding pry
+
