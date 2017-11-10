@@ -1,3 +1,4 @@
+require'pry'
 class Doctor
   attr_accessor :name, :appointments
 
@@ -19,3 +20,4 @@ class Doctor
     @appointments.collect{|appointment| appointment.patient}
     end
 end
+binding pry
